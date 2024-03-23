@@ -4,6 +4,8 @@
  */
 package com.mycompany.login;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author mint
@@ -127,19 +129,22 @@ public class CrearAlumno extends javax.swing.JFrame {
 
     private void jButton1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton1MouseClicked
         // TODO add your handling code here:
-       /*String FieldNombre = CampitoNombre.getText();
+        String FieldNombre = CampitoNombre.getText();
         String FieldApellido = CampitoApellido.getText();
-        String FieldUsuario = CampitoCarne.getText();
+        String FieldCarne = CampitoCarne.getText();
         String FieldPassword = CampitoPassword.getText();
         
-        Alumno CrearAlumno = new Alumno(FieldNombre, FieldApellido, FieldUsuario , FieldPassword);
-        NewMain.AlumnoList.add(CrearAlumno);
+        Alumno CrearAlumno = new Alumno(FieldCarne, FieldNombre, FieldApellido , FieldPassword);
+        Login.AlumnoList.add(CrearAlumno);
         JOptionPane.showMessageDialog(this, "Alumno Creado");
         
         CampitoNombre.setText("");
         CampitoApellido.setText("");
         CampitoPassword.setText("");
-        CampitoCarne.setText("");*/
+        CampitoCarne.setText("");
+        
+        
+        
     }//GEN-LAST:event_jButton1MouseClicked
 
     private void jButton2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton2MouseClicked

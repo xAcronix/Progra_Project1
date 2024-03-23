@@ -53,6 +53,11 @@ public class login extends javax.swing.JFrame {
         });
 
         loginButton.setText("Login");
+        loginButton.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                loginButtonMouseClicked(evt);
+            }
+        });
         loginButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 loginButtonActionPerformed(evt);
@@ -122,6 +127,7 @@ public class login extends javax.swing.JFrame {
         NuevaPantalla.setVisible(true);
         this.dispose();
     }
+       
     /*
         if(usuarioEncontrado){
             this.dispose();
@@ -135,6 +141,11 @@ public class login extends javax.swing.JFrame {
     private void passwordFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_passwordFieldActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_passwordFieldActionPerformed
+
+    private void loginButtonMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginButtonMouseClicked
+        // TODO add your handling code here:
+        
+    }//GEN-LAST:event_loginButtonMouseClicked
 
     
 

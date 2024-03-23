@@ -9,21 +9,21 @@ package com.mycompany.login;
  * @author mint
  */
 public class Alumno {
-    public String carne;
+    public static String carne;
     public String nombre;
     public String apellido;
     public static String password;
     
     public Alumno (String Carne, String Nombre, String Apellido, String password) {
-        this.carne = carne;
-        this.nombre = nombre;
-        this.apellido = apellido;
+        this.carne = Carne;
+        this.nombre = Nombre;
+        this.apellido = Apellido;
         this.password = password;
     }
     
     public static boolean IngresoAlumno(String carne, String password){
         boolean encontrado = false;
-        for(Alumno p : Login.alumnos){
+        for(Alumno p : Login.AlumnoList){
             if(p.carne.equals(carne) && p.password.equals(password)){
                encontrado = true;
             }
