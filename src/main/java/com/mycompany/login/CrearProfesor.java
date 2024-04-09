@@ -53,6 +53,12 @@ public class CrearProfesor extends javax.swing.JFrame {
 
         jLabel4.setText("Contrasena:");
 
+        CampoUsuario.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CampoUsuarioActionPerformed(evt);
+            }
+        });
+
         CampoContrasena.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 CampoContrasenaActionPerformed(evt);
@@ -182,6 +188,10 @@ public class CrearProfesor extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void CampoUsuarioActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CampoUsuarioActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_CampoUsuarioActionPerformed
 
    
 
